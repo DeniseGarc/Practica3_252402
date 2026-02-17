@@ -36,8 +36,8 @@
         android:paddingHorizontal="50dp">
 
         <Button
-            android:id="@+id/button_cold_drinks"
-            android:text="@string/cold_drinks"
+            android:id="@+id/button_antojitos"
+            android:text="@string/antojitos"
             android:textColor="@color/white"
             android:background="@drawable/first_gradient"
             android:paddingHorizontal="@dimen/menu_buttons_paddings"
@@ -48,33 +48,8 @@
             android:paddingVertical="@dimen/menu_buttons_paddings"
             />
         <Button
-            android:id="@+id/button_hot_drinks"
-            android:text="@string/hot_drinks"
-            android:textColor="@color/white"
-            android:background="@drawable/first_gradient"
-            android:paddingHorizontal="@dimen/menu_buttons_paddings"
-            android:layout_marginRight="@dimen/menu_butttons_margin"
-            android:layout_gravity="fill_horizontal"
-            android:layout_columnWeight="1"
-            android:textSize="@dimen/menu_buttons_text"
-            android:paddingVertical="@dimen/menu_buttons_paddings"
-            />
-
-        <Button
-            android:id="@+id/button_sweets"
-            android:text="@string/sweets"
-            android:textColor="@color/white"
-            android:background="@drawable/first_gradient"
-            android:paddingHorizontal="@dimen/menu_buttons_paddings"
-            android:layout_marginRight="@dimen/menu_butttons_margin"
-            android:layout_gravity="fill_horizontal"
-            android:layout_columnWeight="1"
-            android:textSize="@dimen/menu_buttons_text"
-            android:paddingVertical="@dimen/menu_buttons_paddings"
-            />
-        <Button
-            android:id="@+id/button_salties"
-            android:text="@string/salties"
+            android:id="@+id/button_especialidades"
+            android:text="@string/especialidades"
             android:textColor="@color/white"
             android:background="@drawable/first_gradient"
             android:paddingHorizontal="@dimen/menu_buttons_paddings"
@@ -86,8 +61,20 @@
             />
 
         <Button
-            android:id="@+id/button_combos"
-            android:text="@string/combos"
+            android:id="@+id/button_combinaciones"
+            android:text="@string/combinaciones"
+            android:textColor="@color/white"
+            android:background="@drawable/first_gradient"
+            android:paddingHorizontal="@dimen/menu_buttons_paddings"
+            android:layout_marginRight="@dimen/menu_butttons_margin"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnWeight="1"
+            android:textSize="@dimen/menu_buttons_text"
+            android:paddingVertical="@dimen/menu_buttons_paddings"
+            />
+        <Button
+            android:id="@+id/button_tortas"
+            android:text="@string/tortas"
             android:textColor="@color/white"
             android:background="@drawable/first_gradient"
             android:paddingHorizontal="@dimen/menu_buttons_paddings"
@@ -99,8 +86,21 @@
             />
 
         <Button
-            android:id="@+id/button_custom"
-            android:text="@string/custom"
+            android:id="@+id/button_sopas"
+            android:text="@string/sopas"
+            android:textColor="@color/white"
+            android:background="@drawable/first_gradient"
+            android:paddingHorizontal="@dimen/menu_buttons_paddings"
+            android:layout_marginRight="@dimen/menu_butttons_margin"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnWeight="1"
+            android:textSize="@dimen/menu_buttons_text"
+            android:paddingVertical="@dimen/menu_buttons_paddings"
+            />
+
+        <Button
+            android:id="@+id/button_drinks"
+            android:text="@string/drinks"
             android:textColor="@color/white"
             android:background="@drawable/first_gradient"
             android:paddingHorizontal="@dimen/menu_buttons_paddings"
